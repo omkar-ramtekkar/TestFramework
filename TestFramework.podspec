@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "TestFramework"
-s.version      = " 1.0"
+s.version      = " 3.0"
 s.summary      = "iOS library for Estimote iBeacon devices"
 s.homepage     = "http://estimote.com"
 s.author       = { "Estimote, Inc" => "contact@estimote.com" }
