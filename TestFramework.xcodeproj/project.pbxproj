@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62C8AE11DCC87F0000FCF17 /* TestFrameworkClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B62C8ADF1DCC87F0000FCF17 /* TestFrameworkClass.h */; };
+		B62C8AE21DCC87F0000FCF17 /* TestFrameworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B62C8AE01DCC87F0000FCF17 /* TestFrameworkClass.m */; };
 		B682ED731DCB954200BF4E66 /* TestFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = B682ED711DCB954200BF4E66 /* TestFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62C8ADF1DCC87F0000FCF17 /* TestFrameworkClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFrameworkClass.h; sourceTree = "<group>"; };
+		B62C8AE01DCC87F0000FCF17 /* TestFrameworkClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFrameworkClass.m; sourceTree = "<group>"; };
 		B682ED6E1DCB954200BF4E66 /* TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B682ED711DCB954200BF4E66 /* TestFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFramework.h; sourceTree = "<group>"; };
 		B682ED721DCB954200BF4E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 			children = (
 				B682ED711DCB954200BF4E66 /* TestFramework.h */,
 				B682ED721DCB954200BF4E66 /* Info.plist */,
+				B62C8ADF1DCC87F0000FCF17 /* TestFrameworkClass.h */,
+				B62C8AE01DCC87F0000FCF17 /* TestFrameworkClass.m */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62C8AE11DCC87F0000FCF17 /* TestFrameworkClass.h in Headers */,
 				B682ED731DCB954200BF4E66 /* TestFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B62C8AE21DCC87F0000FCF17 /* TestFrameworkClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +294,7 @@
 				B682ED781DCB954200BF4E66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
